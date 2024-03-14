@@ -1,0 +1,30 @@
+name: geolocator_test2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  anim_search_bar: ^2.0.2
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  http: ^0.13.4
+  intl: ^0.18.1
+  weather: ^3.0.0
+  weather_icons: ^3.0.0 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/sun-and-cloud-kawaii-weather-vector-45158063-Photoroom.png-Photoroom.png
+  uses-material-design: true
